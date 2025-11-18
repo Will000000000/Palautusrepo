@@ -3,6 +3,8 @@
 sequenceDiagram
     participant browser
     participant server
+
+    USER CONNECTS TO URL
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
